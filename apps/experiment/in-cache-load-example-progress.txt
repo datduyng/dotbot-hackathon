@@ -1,0 +1,368 @@
+{
+  status: 'initiate',
+  name: 'HuggingFaceTB/SmolLM2-1.7B-Instruct',
+  file: 'tokenizer.json'
+}
+{
+  status: 'initiate',
+  name: 'HuggingFaceTB/SmolLM2-1.7B-Instruct',
+  file: 'tokenizer_config.json'
+}
+{
+  status: 'initiate',
+  name: 'HuggingFaceTB/SmolLM2-1.7B-Instruct',
+  file: 'config.json'
+}
+{
+  status: 'download',
+  name: 'HuggingFaceTB/SmolLM2-1.7B-Instruct',
+  file: 'tokenizer.json'
+}
+{
+  status: 'download',
+  name: 'HuggingFaceTB/SmolLM2-1.7B-Instruct',
+  file: 'tokenizer_config.json'
+}
+{
+  status: 'download',
+  name: 'HuggingFaceTB/SmolLM2-1.7B-Instruct',
+  file: 'config.json'
+}
+{
+  status: 'progress',
+  name: 'HuggingFaceTB/SmolLM2-1.7B-Instruct',
+  file: 'tokenizer.json',
+  progress: 3.1140059946135907,
+  loaded: 65536,
+  total: 2104556
+}
+{
+  status: 'progress',
+  name: 'HuggingFaceTB/SmolLM2-1.7B-Instruct',
+  file: 'tokenizer_config.json',
+  progress: 100,
+  loaded: 3764,
+  total: 3764
+}
+{
+  status: 'progress',
+  name: 'HuggingFaceTB/SmolLM2-1.7B-Instruct',
+  file: 'config.json',
+  progress: 100,
+  loaded: 908,
+  total: 908
+}
+{
+  status: 'progress',
+  name: 'HuggingFaceTB/SmolLM2-1.7B-Instruct',
+  file: 'tokenizer.json',
+  progress: 6.2280119892271815,
+  loaded: 131072,
+  total: 2104556
+}
+{
+  status: 'done',
+  name: 'HuggingFaceTB/SmolLM2-1.7B-Instruct',
+  file: 'tokenizer_config.json'
+}
+{
+  status: 'done',
+  name: 'HuggingFaceTB/SmolLM2-1.7B-Instruct',
+  file: 'config.json'
+}
+{
+  status: 'initiate',
+  name: 'HuggingFaceTB/SmolLM2-1.7B-Instruct',
+  file: 'onnx/model_q4.onnx'
+}
+{
+  status: 'initiate',
+  name: 'HuggingFaceTB/SmolLM2-1.7B-Instruct',
+  file: 'generation_config.json'
+}
+{
+  status: 'download',
+  name: 'HuggingFaceTB/SmolLM2-1.7B-Instruct',
+  file: 'onnx/model_q4.onnx'
+}
+{
+  status: 'done',
+  name: 'HuggingFaceTB/SmolLM2-1.7B-Instruct',
+  file: 'onnx/model_q4.onnx'
+}
+{
+  status: 'download',
+  name: 'HuggingFaceTB/SmolLM2-1.7B-Instruct',
+  file: 'generation_config.json'
+}
+{
+  status: 'progress',
+  name: 'HuggingFaceTB/SmolLM2-1.7B-Instruct',
+  file: 'tokenizer.json',
+  progress: 9.342017983840773,
+  loaded: 196608,
+  total: 2104556
+}
+{
+  status: 'progress',
+  name: 'HuggingFaceTB/SmolLM2-1.7B-Instruct',
+  file: 'tokenizer.json',
+  progress: 12.456023978454363,
+  loaded: 262144,
+  total: 2104556
+}
+{
+  status: 'progress',
+  name: 'HuggingFaceTB/SmolLM2-1.7B-Instruct',
+  file: 'generation_config.json',
+  progress: 100,
+  loaded: 132,
+  total: 132
+}
+{
+  status: 'progress',
+  name: 'HuggingFaceTB/SmolLM2-1.7B-Instruct',
+  file: 'tokenizer.json',
+  progress: 15.570029973067953,
+  loaded: 327680,
+  total: 2104556
+}
+{
+  status: 'done',
+  name: 'HuggingFaceTB/SmolLM2-1.7B-Instruct',
+  file: 'generation_config.json'
+}
+{
+  status: 'progress',
+  name: 'HuggingFaceTB/SmolLM2-1.7B-Instruct',
+  file: 'tokenizer.json',
+  progress: 18.684035967681545,
+  loaded: 393216,
+  total: 2104556
+}
+{
+  status: 'progress',
+  name: 'HuggingFaceTB/SmolLM2-1.7B-Instruct',
+  file: 'tokenizer.json',
+  progress: 21.798041962295134,
+  loaded: 458752,
+  total: 2104556
+}
+{
+  status: 'progress',
+  name: 'HuggingFaceTB/SmolLM2-1.7B-Instruct',
+  file: 'tokenizer.json',
+  progress: 24.912047956908726,
+  loaded: 524288,
+  total: 2104556
+}
+{
+  status: 'progress',
+  name: 'HuggingFaceTB/SmolLM2-1.7B-Instruct',
+  file: 'tokenizer.json',
+  progress: 28.026053951522318,
+  loaded: 589824,
+  total: 2104556
+}
+{
+  status: 'progress',
+  name: 'HuggingFaceTB/SmolLM2-1.7B-Instruct',
+  file: 'tokenizer.json',
+  progress: 31.140059946135906,
+  loaded: 655360,
+  total: 2104556
+}
+{
+  status: 'progress',
+  name: 'HuggingFaceTB/SmolLM2-1.7B-Instruct',
+  file: 'tokenizer.json',
+  progress: 34.2540659407495,
+  loaded: 720896,
+  total: 2104556
+}
+{
+  status: 'progress',
+  name: 'HuggingFaceTB/SmolLM2-1.7B-Instruct',
+  file: 'tokenizer.json',
+  progress: 37.36807193536309,
+  loaded: 786432,
+  total: 2104556
+}
+{
+  status: 'progress',
+  name: 'HuggingFaceTB/SmolLM2-1.7B-Instruct',
+  file: 'tokenizer.json',
+  progress: 40.482077929976676,
+  loaded: 851968,
+  total: 2104556
+}
+{
+  status: 'progress',
+  name: 'HuggingFaceTB/SmolLM2-1.7B-Instruct',
+  file: 'tokenizer.json',
+  progress: 43.59608392459027,
+  loaded: 917504,
+  total: 2104556
+}
+{
+  status: 'progress',
+  name: 'HuggingFaceTB/SmolLM2-1.7B-Instruct',
+  file: 'tokenizer.json',
+  progress: 46.71008991920386,
+  loaded: 983040,
+  total: 2104556
+}
+{
+  status: 'progress',
+  name: 'HuggingFaceTB/SmolLM2-1.7B-Instruct',
+  file: 'tokenizer.json',
+  progress: 49.82409591381745,
+  loaded: 1048576,
+  total: 2104556
+}
+{
+  status: 'progress',
+  name: 'HuggingFaceTB/SmolLM2-1.7B-Instruct',
+  file: 'tokenizer.json',
+  progress: 52.938101908431044,
+  loaded: 1114112,
+  total: 2104556
+}
+{
+  status: 'progress',
+  name: 'HuggingFaceTB/SmolLM2-1.7B-Instruct',
+  file: 'tokenizer.json',
+  progress: 56.052107903044636,
+  loaded: 1179648,
+  total: 2104556
+}
+{
+  status: 'progress',
+  name: 'HuggingFaceTB/SmolLM2-1.7B-Instruct',
+  file: 'tokenizer.json',
+  progress: 59.16611389765822,
+  loaded: 1245184,
+  total: 2104556
+}
+{
+  status: 'progress',
+  name: 'HuggingFaceTB/SmolLM2-1.7B-Instruct',
+  file: 'tokenizer.json',
+  progress: 62.28011989227181,
+  loaded: 1310720,
+  total: 2104556
+}
+{
+  status: 'progress',
+  name: 'HuggingFaceTB/SmolLM2-1.7B-Instruct',
+  file: 'tokenizer.json',
+  progress: 65.3941258868854,
+  loaded: 1376256,
+  total: 2104556
+}
+{
+  status: 'progress',
+  name: 'HuggingFaceTB/SmolLM2-1.7B-Instruct',
+  file: 'tokenizer.json',
+  progress: 68.508131881499,
+  loaded: 1441792,
+  total: 2104556
+}
+{
+  status: 'progress',
+  name: 'HuggingFaceTB/SmolLM2-1.7B-Instruct',
+  file: 'tokenizer.json',
+  progress: 71.62213787611259,
+  loaded: 1507328,
+  total: 2104556
+}
+{
+  status: 'progress',
+  name: 'HuggingFaceTB/SmolLM2-1.7B-Instruct',
+  file: 'tokenizer.json',
+  progress: 74.73614387072618,
+  loaded: 1572864,
+  total: 2104556
+}
+{
+  status: 'progress',
+  name: 'HuggingFaceTB/SmolLM2-1.7B-Instruct',
+  file: 'tokenizer.json',
+  progress: 77.85014986533977,
+  loaded: 1638400,
+  total: 2104556
+}
+{
+  status: 'progress',
+  name: 'HuggingFaceTB/SmolLM2-1.7B-Instruct',
+  file: 'tokenizer.json',
+  progress: 80.96415585995335,
+  loaded: 1703936,
+  total: 2104556
+}
+{
+  status: 'progress',
+  name: 'HuggingFaceTB/SmolLM2-1.7B-Instruct',
+  file: 'tokenizer.json',
+  progress: 84.07816185456694,
+  loaded: 1769472,
+  total: 2104556
+}
+{
+  status: 'progress',
+  name: 'HuggingFaceTB/SmolLM2-1.7B-Instruct',
+  file: 'tokenizer.json',
+  progress: 87.19216784918054,
+  loaded: 1835008,
+  total: 2104556
+}
+{
+  status: 'progress',
+  name: 'HuggingFaceTB/SmolLM2-1.7B-Instruct',
+  file: 'tokenizer.json',
+  progress: 90.30617384379414,
+  loaded: 1900544,
+  total: 2104556
+}
+{
+  status: 'progress',
+  name: 'HuggingFaceTB/SmolLM2-1.7B-Instruct',
+  file: 'tokenizer.json',
+  progress: 93.42017983840772,
+  loaded: 1966080,
+  total: 2104556
+}
+{
+  status: 'progress',
+  name: 'HuggingFaceTB/SmolLM2-1.7B-Instruct',
+  file: 'tokenizer.json',
+  progress: 96.53418583302131,
+  loaded: 2031616,
+  total: 2104556
+}
+{
+  status: 'progress',
+  name: 'HuggingFaceTB/SmolLM2-1.7B-Instruct',
+  file: 'tokenizer.json',
+  progress: 99.6481918276349,
+  loaded: 2097152,
+  total: 2104556
+}
+{
+  status: 'progress',
+  name: 'HuggingFaceTB/SmolLM2-1.7B-Instruct',
+  file: 'tokenizer.json',
+  progress: 100,
+  loaded: 2104556,
+  total: 2104556
+}
+{
+  status: 'done',
+  name: 'HuggingFaceTB/SmolLM2-1.7B-Instruct',
+  file: 'tokenizer.json'
+}
+{
+  status: 'ready',
+  task: 'text-generation',
+  model: 'HuggingFaceTB/SmolLM2-1.7B-Instruct'
+}

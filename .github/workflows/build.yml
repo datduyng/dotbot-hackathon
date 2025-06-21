@@ -1,0 +1,90 @@
+name: Release
+
+on:
+  push:
+    tags:
+      - 'v*'
+    paths:
+      - "apps/desktop/**"
+  workflow_dispatch:
+    inputs:
+      version:
+        description: 'Version to release (e.g., 1.0.1)'
+        required: true
+        type: string
+      release_code:
+        description: 'Publish to dotbot-releases repository'
+        required: false
+        type: boolean
+        default: false
+
+jobs:
+  release:
+    runs-on: macos-latest
+    
+    defaults:
+      run:
+        working-directory: ./apps/desktop
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+        
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+          cache: 'npm'
+          cache-dependency-path: 'apps/desktop/package-lock.json'
+          
+      - name: Install dependencies
+        run: npm ci
+        
+      - name: Update version if manual trigger
+        if: github.event_name == 'workflow_dispatch'
+        run: npm version ${{ github.event.inputs.version }} --no-git-tag-version
+        
+      - name: Build and publish application
+        env:
+          GH_TOKEN: ${{ secrets.RELEASES_TOKEN }}
+        run: npm run build:publish
+        
+      - name: Upload artifacts to current repository
+        uses: actions/upload-artifact@v4
+        with:
+          name: release-artifacts
+          path: apps/desktop/dist-app/
+          retention-days: 30
+
+      - name: Publish to dotbot-releases repository
+        if: github.event.inputs.release_code == 'true' || github.event_name == 'push'
+        env:
+          RELEASES_TOKEN: ${{ secrets.RELEASES_TOKEN }}
+        run: |
+          # Clone the releases repository
+          git clone https://x-access-token:${RELEASES_TOKEN}@github.com/datduyng/dotbot-releases.git releases-repo
+          
+          # Copy built artifacts to releases repository
+          cp -r dist-app/* releases-repo/
+          
+          # Configure git for the releases repository
+          cd releases-repo
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          
+          # Get version for commit message
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            VERSION="${{ github.event.inputs.version }}"
+          else
+            VERSION="${GITHUB_REF#refs/tags/}"
+          fi
+          
+          # Commit and push changes
+          git add .
+          git commit -m "Release DotBot Desktop ${VERSION}" || echo "No changes to commit"
+          git push origin main

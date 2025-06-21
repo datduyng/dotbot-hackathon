@@ -1,0 +1,43 @@
+{
+    "time": "2025-06-09T22:29:42.6414252Z",
+    "type": "EventMessage",
+    "resourceLink": "https://notifications.skype.net/v1/users/ME/conversations/19:fa10f006bcb5479b93d1b7985eedaf24@thread.tacv2/messages/1749508179404",
+    "resourceType": "MessageUpdate",
+    "resource": {
+      "clientmessageid": "2358158664209250498",
+      "content": "<p><span itemtype=\"http://schema.skype.com/Mention\" itemscope=\"\" itemid=\"0\">Jenny Ferries</span>&nbsp;I had opened the linked you sent.</p>\r\n<p>besides sum of calls and dates I do not have any more information on which services aquires those tokens:</p>\r\n<p><img itemscope=\"png\" itemtype=\"http://schema.skype.com/AMSImage\" src=\"https://us-api.asm.skype.com/v1/objects/0-eus-d19-11c2838737cbb458ad8652dd9568cf60/views/imgo\" width=\"446.0431654676259\" height=\"250\" alt=\"image\" id=\"x_0-eus-d19-11c2838737cbb458ad8652dd9568cf60\" itemid=\"0-eus-d19-11c2838737cbb458ad8652dd9568cf60\"></p>\r\n<p>&nbsp;</p>",
+      "from": "https://notifications.skype.net/v1/users/ME/contacts/8:orgid:05857031-42ee-45d3-ad6f-2456c5b2b336",
+      "imdisplayname": "Aviad Haimov",
+      "prioritizeimdisplayname": null,
+      "id": "1749508179404",
+      "messagetype": "RichText/Html",
+      "originalarrivaltime": "2025-06-09T22:29:39.4040000Z",
+      "properties": {
+        "mentions": "[{\"@type\":\"http://schema.skype.com/Mention\",\"itemid\":0,\"mri\":\"8:orgid:1364bb70-9521-4de8-989d-c2c19ff90885\",\"mentionType\":\"person\",\"displayName\":\"Jenny Ferries\"}]",
+        "cards": "[]",
+        "importance": "",
+        "subject": "",
+        "title": "",
+        "links": "[]",
+        "files": "[]",
+        "formatVariant": "TEAMS",
+        "languageStamp": "languages=en:100;id:55;fil:54;length:140;&detector=Bling",
+        "blurHash": "[{\"imageId\":\"0-eus-d19-11c2838737cbb458ad8652dd9568cf60\",\"blurhash\":\"L4SigP4-nUwj^nj1E09Y4mNFayah\"}]"
+      },
+      "sequenceId": 8997,
+      "version": "1749508182613",
+      "composetime": "2025-06-09T22:29:39.4040000Z",
+      "type": "Message",
+      "conversationLink": "https://notifications.skype.net/v1/users/ME/conversations/19:fa10f006bcb5479b93d1b7985eedaf24@thread.tacv2;messageid=1749038881078",
+      "to": "19:fa10f006bcb5479b93d1b7985eedaf24@thread.tacv2",
+      "contenttype": "Text",
+      "annotationsSummary": {},
+      "fromFamilyNameInToken": "Haimov",
+      "fromGivenNameInToken": "Aviad",
+      "fromDisplayNameInToken": "Aviad Haimov",
+      "threadtype": "topic",
+      "threadtopic": "4 - KPI Problems and Questions",
+      "inQuarantine": false
+    },
+    "isactive": true
+  }

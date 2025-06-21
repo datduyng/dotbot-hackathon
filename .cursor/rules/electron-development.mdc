@@ -1,0 +1,8 @@
+---
+description: 
+globs: apps/desktop/**
+alwaysApply: false
+---
+- When writting code under apps/desktop/electron/* ensure to look and update at rules under [electron-env.d.ts](mdc:apps/desktop/electron/electron-env.d.ts) which has all the types 
+- Use npm for code under apps/desktop
+- Always look at [package.json](mdc:apps/desktop/package.json) and reuse existings packages

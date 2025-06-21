@@ -1,0 +1,67 @@
+{
+  "name": "dotbot-desktop",
+  "version": "0.0.2",
+  "main": "dist-electron/main/index.js",
+  "description": "Dotbot Desktop",
+  "author": "Dominic Nguyen",
+  "private": true,
+  "debug": {
+    "env": {
+      "VITE_DEV_SERVER_URL": "http://127.0.0.1:7777/"
+    }
+  },
+  "type": "module",
+  "scripts": {
+    "dev": "npm install && vite",
+    "dev:electron": "concurrently \"vite\" \"wait-on http://localhost:5173 && electron .\"",
+    "electron": "electron .",
+    "build": "npm install && tsc && vite build && electron-builder --mac --win --linux",
+    "build:mac": "npm install && tsc && vite build && electron-builder --mac",
+    "build:publish": "npm install && tsc && vite build && electron-builder --mac --win --linux --publish=always",
+    "rebuild": "electron scripts/rebuild.js",
+    "build:window": "brew install --cask wine-stable && npm install && tsc && vite build && electron-builder --win",
+    "postinstall": "npm run rebuild &&electron-builder install-app-deps",
+    "preview": "vite preview",
+    "pretest": "vite build --mode=test",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@radix-ui/react-label": "^2.1.7",
+    "@radix-ui/react-radio-group": "^1.3.7",
+    "@radix-ui/react-slot": "^1.2.3",
+    "@radix-ui/react-tabs": "^1.1.12",
+    "@types/node-fetch": "^2.6.12",
+    "better-sqlite3": "^11.6.0",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "electron-updater": "^6.3.9",
+    "lucide-react": "^0.460.0",
+    "node-fetch": "^3.3.2",
+    "puppeteer-core": "^24.9.0",
+    "react-router-dom": "^6.28.0",
+    "tailwind-merge": "^2.5.4"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.48.2",
+    "@types/better-sqlite3": "^7.6.13",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@vitejs/plugin-react": "^4.3.3",
+    "autoprefixer": "^10.4.20",
+    "concurrently": "^9.1.2",
+    "electron": "^33.2.0",
+    "electron-builder": "^24.13.3",
+    "electron-rebuild": "^3.2.9",
+    "postcss": "^8.4.49",
+    "postcss-import": "^16.1.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "tailwindcss": "^3.4.15",
+    "typescript": "^5.4.2",
+    "vite": "^5.4.11",
+    "vite-plugin-electron": "^0.29.0",
+    "vite-plugin-electron-renderer": "^0.14.6",
+    "vitest": "^2.1.5",
+    "wait-on": "^8.0.3"
+  }
+}

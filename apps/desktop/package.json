@@ -39,7 +39,7 @@
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "electron-updater": "^6.3.9",
-    "lucide-react": "^0.460.0",
+    "lucide-react": "^0.522.0",
     "node-fetch": "^3.3.2",
     "puppeteer-core": "^24.9.0",
     "react-markdown": "^9.0.1",

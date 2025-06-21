@@ -5,9 +5,9 @@
     "resourceType": "MessageUpdate",
     "resource": {
       "clientmessageid": "2358158664209250498",
-      "content": "<p><span itemtype=\"http://schema.skype.com/Mention\" itemscope=\"\" itemid=\"0\">Jenny Ferries</span>&nbsp;I had opened the linked you sent.</p>\r\n<p>besides sum of calls and dates I do not have any more information on which services aquires those tokens:</p>\r\n<p><img itemscope=\"png\" itemtype=\"http://schema.skype.com/AMSImage\" src=\"https://us-api.asm.skype.com/v1/objects/0-eus-d19-11c2838737cbb458ad8652dd9568cf60/views/imgo\" width=\"446.0431654676259\" height=\"250\" alt=\"image\" id=\"x_0-eus-d19-11c2838737cbb458ad8652dd9568cf60\" itemid=\"0-eus-d19-11c2838737cbb458ad8652dd9568cf60\"></p>\r\n<p>&nbsp;</p>",
+      "content": "<p><span itemtype=\"http://schema.skype.com/Mention\" itemscope=\"\" itemid=\"0\">Test</span>&nbsp;I had opened the linked you sent.</p>\r\n<p>besides sum of calls and dates I do not have any more information on which services aquires those tokens:</p>\r\n<p><img itemscope=\"png\" itemtype=\"http://schema.skype.com/AMSImage\" src=\"https://us-api.asm.skype.com/v1/objects/0-eus-d19-11c2838737cbb458ad8652dd9568cf60/views/imgo\" width=\"446.0431654676259\" height=\"250\" alt=\"image\" id=\"x_0-eus-d19-11c2838737cbb458ad8652dd9568cf60\" itemid=\"0-eus-d19-11c2838737cbb458ad8652dd9568cf60\"></p>\r\n<p>&nbsp;</p>",
       "from": "https://notifications.skype.net/v1/users/ME/contacts/8:orgid:05857031-42ee-45d3-ad6f-2456c5b2b336",
-      "imdisplayname": "Aviad Haimov",
+      "imdisplayname": "David",
       "prioritizeimdisplayname": null,
       "id": "1749508179404",
       "messagetype": "RichText/Html",

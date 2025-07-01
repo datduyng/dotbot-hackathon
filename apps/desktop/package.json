@@ -43,7 +43,7 @@
     "node-fetch": "^3.3.2",
     "puppeteer-core": "^24.9.0",
     "react-markdown": "^9.0.1",
-    "react-router-dom": "^6.28.0",
+    "react-router-dom": "^7.6.3",
     "remark-gfm": "^4.0.1",
     "tailwind-merge": "^2.5.4"
   },
